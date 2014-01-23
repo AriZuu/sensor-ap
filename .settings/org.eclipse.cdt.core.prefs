@@ -1,0 +1,9 @@
+#Mon Dec 19 16:15:23 EET 2011
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.284589310/PATH/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.284589310/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.284589310/PATH/value=C\:\\mspgcc\\msp430\\bin;C\:\\mspgcc\\bin;C\:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C\:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C\:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C\:\\Program Files (x86)\\Windows Live\\Shared;C\:\\Program Files (x86)\\Flash Magic;C\:\\Program Files (x86)\\yagarto-tools-20100703\\bin;C\:\\Program Files (x86)\\CodeSourcery\\Sourcery G++ Lite\\bin;C\:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C\:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C\:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C\:\\Program Files (x86)\\Windows Live\\Shared
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.284589310/append=true
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.284589310/appendContributed=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.1731445620/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.1731445620/appendContributed=true

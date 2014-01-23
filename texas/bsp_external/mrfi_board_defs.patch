@@ -1,0 +1,19 @@
+--- ../simpliciti/bsp/boards/EZ430RF/bsp_external/mrfi_board_defs.h	2012-06-14 14:28:53.000000000 +0300
++++ texas/bsp_external/mrfi_board_defs.h	2013-02-01 09:09:18.000000000 +0200
+@@ -156,16 +156,4 @@
+ 
+ #define MRFI_SPI_IS_INITIALIZED()         (UCB0CTL0 & UCMST)
+ 
+-
+-/**************************************************************************************************
+- *                                  Compile Time Integrity Checks
+- **************************************************************************************************
+- */
+-#ifndef BSP_BOARD_EZ430RF
+-#error "ERROR: Mismatch between specified board and MRFI configuration."
+-#endif
+-
+-
+-/**************************************************************************************************
+- */
+ #endif

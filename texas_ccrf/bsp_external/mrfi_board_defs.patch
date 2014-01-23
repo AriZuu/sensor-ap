@@ -1,0 +1,19 @@
+--- ../simpliciti/bsp/boards/CC430EM/bsp_external/mrfi_board_defs.h	2012-06-14 14:28:53.000000000 +0300
++++ texas_ccrf/bsp_external/mrfi_board_defs.h	2013-02-01 09:10:20.000000000 +0200
+@@ -66,16 +66,4 @@
+ #define MRFI_RIF_ENTER_CRITICAL_SECTION(x)    BSP_ENTER_CRITICAL_SECTION(x)
+ #define MRFI_RIF_EXIT_CRITICAL_SECTION(x)     BSP_EXIT_CRITICAL_SECTION(x)
+ 
+-
+-/**************************************************************************************************
+- *                                  Compile Time Integrity Checks
+- **************************************************************************************************
+- */
+-#ifndef BSP_BOARD_CC430EM
+-#error "ERROR: Mismatch between specified board and MRFI configuration."
+-#endif
+-
+-
+-/**************************************************************************************************
+- */
+ #endif
