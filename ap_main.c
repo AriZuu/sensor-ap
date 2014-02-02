@@ -46,6 +46,7 @@
 #include <HAL_TLV.h>
 
 #include "sensor_msg.h"
+#include "calib_data.h"
 
 #define MAIN_STACK_SIZE 220
 #define IDLE_STACK_SIZE 60
@@ -71,6 +72,9 @@
 #define     LED_OUT               P1OUT
 
 #endif
+
+extern int __infod[];
+unsigned char rf_freqoffset;
 
 static void mainTask(void *arg);
 static uint8_t simplicitiCallback(linkID_t);
@@ -167,6 +171,9 @@ static void mainTask(void *memstart)
 
   nosPrint("AP start.\n");
   uosBootDiag();
+
+  if (__infod[0] == CALIB_DATA_FINGERPRINT)
+    rf_freqoffset = __infod[1];
 
   radioFlag = posFlagCreate();
 
