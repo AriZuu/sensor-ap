@@ -146,7 +146,6 @@ static void mainTask(void *memstart)
 {
   int pass;
   VAR_t flag;
-  addr_t myAddr;
 
   LED_DIR |= LED_RED;
   LED_OUT &= ~LED_RED;
@@ -180,6 +179,8 @@ static void mainTask(void *memstart)
   radioFlag = posFlagCreate();
 
 #ifdef __CC430F5137__
+
+  addr_t myAddr;
 
   Get_TLV_Info(TLV_DIERECORD, 0, &dieSize, (unsigned int**) &die);
   if (die != NULL) {
