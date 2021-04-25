@@ -171,10 +171,12 @@ static void mainTask(void *memstart)
   nosPrint("AP start.\n");
   uosBootDiag();
 
+#ifdef __CC430F5137__
   if (__infod[0] == CALIB_DATA_FINGERPRINT) {
     rf_freqoffset = __infod[1];
     nosPrintf("Radio frequency calibration offset is %d\n", (int)rf_freqoffset);
   }
+#endif
 
   radioFlag = posFlagCreate();
 
