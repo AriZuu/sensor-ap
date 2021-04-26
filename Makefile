@@ -33,11 +33,12 @@ PORT = msp430
 #
 # This is for TI ez430-rf2500 kit
 #
-#MCU ?= msp430f2274
+MCU ?= msp430f2274
+
 #
 # This is for Olimex MSP430-CCRF card
 #
-MCU ?= cc430f5137 
+#MCU ?= cc430f5137 
 
 ifeq '$(MCU)' 'msp430f2274'
 
@@ -96,7 +97,7 @@ DIR_USRINC += $(TEXAS_CONF)  \
 		$(TEXAS_SRC)/simpliciti/nwk_applications/ \
 		../picoos-micro ../picoos-micro/ports/msp430/hal5xx6xx
 
-DIR_CONFIG = $(CURRENTDIR)
+DIR_CONFIG = $(CURRENTDIR)/config
 DIR_OUTPUT = $(CURRENTDIR)/bin
 MODULES += ../simpliciti ../picoos-micro
 EXEC_MAKEFILES += $(TEXAS_CONF)/bsp_external/Makefile
