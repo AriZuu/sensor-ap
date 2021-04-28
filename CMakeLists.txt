@@ -63,7 +63,7 @@ add_peer_directory(../picoos-micro)
 add_peer_directory(../simpliciti)
 
 target_compile_definitions(simpliciti PUBLIC 
-        SIZE_OUTFRAME_Q=1
+    SIZE_OUTFRAME_Q=1
 	THIS_DEVICE_ADDRESS={{0x78,0x56,0x34,0x12}}
 	ACCESS_POINT
 	AP_IS_DATA_HUB
