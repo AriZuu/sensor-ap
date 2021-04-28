@@ -34,11 +34,11 @@ set(NANO 1)
 #
 # This is for TI ez430-rf2500 kit
 #
-set(MCU msp430f2274)
+#set(MCU msp430f2274)
 #
 # This is for Olimex MSP430-CCRF card
 #
-#set(MCU cc430f5137)
+set(MCU cc430f5137)
 
 if(MCU STREQUAL "msp430f2274")
 set(TEXAS_CONF ${CMAKE_CURRENT_SOURCE_DIR}/texas)
